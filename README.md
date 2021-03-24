@@ -1,2 +1,2 @@
-# js-portfolio
+# curso-webpack
 Curso de webpack
