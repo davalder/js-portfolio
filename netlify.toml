@@ -1,6 +1,3 @@
 [build]
-    pcommand: npm run build
-    commandOrigin: ui
-    environment:
-        - API
-    publish: /opt/build/repo/dist
+    publish = "dist"
+    command = "npm run build"
