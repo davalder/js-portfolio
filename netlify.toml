@@ -1,3 +1,6 @@
 [build]
-    publish = "dist"
-    Cl = "npm run build"
+    pcommand: npm run build
+    commandOrigin: ui
+    environment:
+        - API
+    publish: /opt/build/repo/dist
